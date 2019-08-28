@@ -17,7 +17,7 @@ class Main extends PluginBase implements Listener {
 	public function onEnable() {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		ItemFactory::registerItem(new Crossbow());
-		Item::addCreativeItem(new Crossbow());
+		Item::initCreativeItems();
 	}
 	
 	public function onDataPacketReceive(DataPacketReceiveEvent $ev) {
