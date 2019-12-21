@@ -61,6 +61,9 @@ class Crossbow extends Tool {
 			$list = $item->nbtSerialize(-1, "chargedItem");
 			
 		}
+
+		$list->removeTag("id");
+		$list->setString("Name", "minecraft:arrow");
 		
 		$this->setNamedTagEntry($list);
 		

@@ -1,6 +1,6 @@
 name: Crossbow
 main: Crossbow\Main
 api: 3.9.0
-version: 1.0.7
+version: 1.0.9
 load: STARTUP
 website: https://github.com/Dong-Yi/Crossbow
